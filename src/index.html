@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Journal</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Journal</h1>
+    <form id="journal-form" class="form-group">
+      <label for="title">Title:</label>
+      <input id="title" name="title" type="text"><br>
+      <div>
+        <label for="body">Body:</label>
+        <textarea id="body" rows="4" cols="50" class="form-control"></textarea><br>
+      </div>
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+    <h3>Result</h3>
+    <ul id="result">
+      <li>Word Counter:<span id="wordCounter"></span></li>
+      <li>Vowel Counter:<span id="vowelCounter"></span></li>
+      <li>Consonant Counter:<span id="consonantCounter"></span></li>
+    </ul>
+  </div>
+</body>
+
+</html>
